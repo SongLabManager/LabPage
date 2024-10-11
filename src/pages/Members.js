@@ -11,7 +11,7 @@ const Members = () => {
       <h2>Full-Time Members</h2>
       <div className="member-container full-time">
         <div className="member">
-          <img src="./images/ParkDY.jpg" alt="박동영"/>
+          <img src={`${process.env.PUBLIC_URL}/images/ParkDY.jpg`} alt="박동영" />
           <div className="member-info">
             <h3>석박사통합 박동영</h3>
             <p>galoistheory@catholic.ac.kr</p>
@@ -19,7 +19,7 @@ const Members = () => {
         </div>
 
         <div className="member">
-          <img src="./images/ParkSM.jpg" alt="박상민"/>
+          <img src={`${process.env.PUBLIC_URL}/images/ParkSM.jpg`} alt="박상민" />
           <div className="member-info">
             <h3>석박사통합 박상민</h3>
             <p>smp.dg.rok@gmail.com</p>
@@ -27,7 +27,7 @@ const Members = () => {
         </div>
 
         <div className="member">
-          <img src="./images/OhSH.jpg" alt="오세훈"/>
+          <img src={`${process.env.PUBLIC_URL}/images/OhSH.jpg`} alt="오세훈" />
           <div className="member-info">
             <h3>석사 오세훈</h3>
             <p>osh9807@gmail.com</p>
@@ -72,7 +72,7 @@ const Members = () => {
       <h2>Alumni</h2>
       <div className="member-container alumni">
         <div className="member">
-          <img src="./images/ChaSH.jpg" alt="차승현"/>
+          <img src={`${process.env.PUBLIC_URL}/images/ChaSH.jpg`} alt="차승현" />
           <div className="member-info">
             <h3>차승현</h3>
             <p>Current : 유나이티드 제약</p>

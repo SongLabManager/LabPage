@@ -1,13 +1,13 @@
 // src/components/Footer.js
-import React from 'react';
-
 const Footer = () => {
+  const email = "songlab12345@gmail.com";
+  const copyrightYear = new Date().getFullYear();
+
   return (
     <footer>
-      <p>&copy; 2024 Lab for Clinical Pharmacy and Therapeutics @ CUK. All rights reserved.</p>
-      <p>Contact us: songlab12345@gmail.com</p>
+      <p>&copy; {copyrightYear} Lab for Clinical Pharmacy and Therapeutics @ CUK. All rights reserved.</p>
+      <p>Contact us: {email}</p>
     </footer>
   );
 }
-
 export default Footer;

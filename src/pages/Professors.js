@@ -31,7 +31,7 @@ const ProfessorPage = () => {
   return (
     <div className="professor-container">
       <div className="professor-photo">
-        <img src="/images/professor.jpg" alt="Professor 송윤경" />
+       <img src={`${process.env.PUBLIC_URL}/images/professor.jpg`} alt="Professor 송윤경" />
       </div>
       <div className="professor-info">
         <h1> Principal Investigator 송 윤 경 (宋 胤 京) Ph.D</h1>

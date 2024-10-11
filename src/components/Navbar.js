@@ -17,7 +17,7 @@ const Navbar = () => {
     <div className="navbar-container">
       {/* 로고 (중앙에 배치) */}
       <div className="navbar-logo">
-        <img src="/images/logo_0.jpg.png" alt="School Logo" className="school-logo" /> {/* 학교 로고 이미지 */}
+        <img src={`${process.env.PUBLIC_URL}/images/logo_0.jpg.png`} alt="School Logo" className="school-logo" /> {/* 학교 로고 이미지 */}
       </div>
       <div className="navbar-logo">
         <h1>Lab for Clinical Pharmacy and Therapeutics @ CUK</h1>

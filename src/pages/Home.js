@@ -8,10 +8,10 @@ const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   // 연구와 관련된 이미지 파일 (동그라미로 선택하거나 10초마다 자동 슬라이드)
-  const researchImages = [
-    "./images/lab_intro_1.jpg",
-    "./images/lab_intro_2.jpg"
-  ];
+ const researchImages = [
+   `${process.env.PUBLIC_URL}/images/lab_intro_1.jpg`,
+   `${process.env.PUBLIC_URL}/images/lab_intro_2.jpg`
+ ];
 
   useEffect(() => {
     const interval = setInterval(() => {
